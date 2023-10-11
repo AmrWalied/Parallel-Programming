@@ -17,7 +17,6 @@ int i = 0;
 // Registeration
 void Register(){
     struct Person Reg_person;
-    //char _name[],_email[],_password[],_phone[];
     printf("Enter Your Name: ");
     scanf("%s",Reg_person.Name);
 
@@ -57,7 +56,7 @@ int Login(){
 int main()
 {
     do{
-        printf("Welcome To Egypt\n");
+        printf("Welcome To The System\n");
         printf("1- Register\n2- Login\n3-Exit\n---------------------\n");
         int t;
         scanf("%d",&t);
